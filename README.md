@@ -4,21 +4,17 @@ A Fake REST API using json-server with JWT authentication.
 
 Implemented End-points: login,register
 
-## Install
 
-```bash
-$ npm install
-$ npm run start-auth
-```
 
-Might need to run
-```
-npm audit fix
-```
+## Setup and Running
 
-## How to login/register?
+- Use `node 14.x` or higher.
+- Clone this repo: `$ git clone https://github.com/Tati-Zhurr/fake-api-jwt-json-server`.
+- Go to downloaded folder: `$ cd fake-api-jwt-json-server`.
+- Install dependencies: `$ npm install`.
+- Start server: `$ npm run server`.
 
-You can login/register by sending a POST request to
+
 
 ```
 POST http://localhost:8000/auth/login
